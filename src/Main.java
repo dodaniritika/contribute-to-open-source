@@ -1,6 +1,8 @@
-
 public class Main
 {
+    public static double multiply (double a, double b) {
+        return a*b;
+    }
   public static double add (double a, double b)
   {
     return a + b;
@@ -36,6 +38,9 @@ public class Main
     System.out.println (divide (a, b));
 
     System.out.println (subtract (a, b));
+
     System.out.println (SQRT (a));
+    
+    System.out.println (multiply (a, b));
   }
 }
