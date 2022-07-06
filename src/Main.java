@@ -5,6 +5,10 @@ public class Main
   {
     return a + b;
   }
+  
+  public static double SQRT(double a) {
+      return a*a;
+  }
   public static double divide (double a, double b)
   {
     if (b == 0)
@@ -32,5 +36,6 @@ public class Main
     System.out.println (divide (a, b));
 
     System.out.println (subtract (a, b));
+    System.out.println (SQRT (a));
   }
 }
