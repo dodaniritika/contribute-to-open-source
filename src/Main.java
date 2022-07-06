@@ -12,6 +12,10 @@ public class Main
         else {  
             return a/b;
         }
+}
+  public static double subtract (double a, double b)
+  {
+    return a - b;
   }
 
   public static void main (String[]args)
@@ -23,5 +27,7 @@ public class Main
     System.out.println(add (a, b));
 
     System.out.println(divide (a, b));
+
+    System.out.println(subtract (a, b));
   }
 }
